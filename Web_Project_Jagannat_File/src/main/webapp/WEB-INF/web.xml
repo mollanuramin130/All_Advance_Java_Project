@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>instagram</servlet-name>
+		<servlet-class>com.ssn.web.TestingInstagram</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>instagram</servlet-name>
+		<url-pattern>/insta</url-pattern>
+	</servlet-mapping>
+</web-app>
